@@ -10,38 +10,19 @@
 
 </head>
 <body>
-
-    <header>
-        <h1>Welcome to Hiryanshi Restaurant</h1>
+    <div class="container">
         <nav>
-            <ul>
-                <li><a href="#">Food</a></li>
-                <li><a href="#">Discount</a></li>
-                <li><a href="#">Login</a></li>
-            </ul>
+            <div class="logo">
+                <h1>Food HUB</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
         </nav>
-    </header>
-
-    <main>
-        <section id="welcome-section">
-            <h2>Where cravings meet!</h2>
-        </section>
-
-        <section id="features-section">
-            <h2>Starters</h2>
-            <ul>
-                <li>Soup</li>
-                <li>Paneer chilli Dry</li>
-                <li>Pani puri</li>
-                <li>Dahi puri</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+        
